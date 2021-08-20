@@ -1,0 +1,6 @@
+GROUP BY
+
+ORDER BY
+
+COUNT(*)
+
