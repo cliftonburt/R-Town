@@ -1,3 +1,5 @@
+https://docs.python.org/3/library/stdtypes.html
+
 abs() #Takes in a numeric data type such as int or float and returns the absolute value of the argument
 
 all() # Returns True if every item in an iterable evaluates to True, otherwise, it returns False
@@ -49,3 +51,25 @@ round() # Takes a number and an integer as parameters, and returns the number wi
 sorted() # Takes in an iterator object, such as a list, dictionary, set, or string, and sorts it according to a parameter
 
 zip() # Takes multiple iterators as input and returns a single zip object made up of a list of tuples 
+
+----
+
+# FUNCTIONS
+
+# Define a function my_function() with parameter x
+def my_function(x):
+    return x + 1
+    
+    # Invoke the function
+    
+    print(my_function(2))
+    print(my_function(3 + 5))
+    
+    
+# A function can be called by writing the name of it, followed by parentheses.
+
+doHomework()
+
+    
+    
+    
