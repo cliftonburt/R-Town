@@ -70,6 +70,31 @@ def my_function(x):
 
 doHomework()
 
+
+# Check for leap year and return a string indicating if it is or not
+
+def check_leap_year(year):
+  if year % 4 == 0:
+    return str(year) + " is a leap year"
+  else:
+    return str(year) + " is not a leap year"
+
+year_to_check = 2018
+returned_value = check_leap_year(year_to_check)
+print(returned_value) 
+    
+
+# Variable scope. Global vs. local scope at work at the example below:
+
+a = 5
+ 
+def f1():
+  a = 2
+  print(a)
+  
+print(a)   # Will print 5
+f1()       # Will print 2
+    
     
     
     
