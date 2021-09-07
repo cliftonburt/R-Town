@@ -1,5 +1,8 @@
 https://docs.python.org/3/library/stdtypes.html
 
+# Built-in Functions
+https://docs.python.org/3/library/functions.html
+
 abs() #Takes in a numeric data type such as int or float and returns the absolute value of the argument
 
 all() # Returns True if every item in an iterable evaluates to True, otherwise, it returns False
